@@ -1,0 +1,17 @@
+//What is the sum of even numbers from 1 to 20?
+
+let total = 0, count = 0;
+while (count <= 20) {
+  total += count;
+  count += 2;
+}
+console.log(total);
+
+//What is the sum of even numbers from 3 to 12?
+
+let total = 0, count = 4;
+while (count <= 12) {
+  total += count;
+  count += 2;
+}
+console.log(total);
